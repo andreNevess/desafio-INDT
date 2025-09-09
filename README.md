@@ -17,8 +17,8 @@ Plataforma simples para **gerenciar propostas de seguro**. Este repo contém o *
 ## 🧭 Arquitetura
 ```mermaid
 flowchart LR
-  Client[[Swagger/HTTP]] --> API
-  API[ProposalService.Api] --> APP[Application (Use Cases)]
-  APP --> DOM[Domain (Entities/Rules)]
-  APP --> INF[Infrastructure (Adapters)]
-  INF --> DB[(Relational DB / EF Core ou InMemory)]
+    Client[[Swagger/HTTP]] --> API[ProposalService.Api]
+    API --> APP[Application (Use Cases)]
+    APP --> DOM[Domain (Entities/Rules)]
+    APP --> INF[Infrastructure (Adapters)]
+    INF --> DB[(Relational DB / EF Core ou InMemory)]
