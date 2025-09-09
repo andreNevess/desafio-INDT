@@ -16,7 +16,6 @@ Plataforma simples para **gerenciar propostas de seguro**. Este repo contém o *
 
 ## 🧭 Arquitetura
 
-flowchart LR
   -  Client[[Swagger/HTTP]] --> API[ProposalService.Api]
   -  API --> APP[Application (Use Cases)]
   -  APP --> DOM[Domain (Entities/Rules)]
